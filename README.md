@@ -1,2 +1,41 @@
 # DTMSCDSA
-DTMSCDSA: a novel circRNA-drug sensitivity association prediction model based on dynamic topology generation and multi-scale spatial perception
+This code and data were provided for the paper "DTMSCDSA: a novel circRNA-drug sensitivity association prediction model based on dynamic topology generation and multi-scale spatial perception"
+
+# Clone this project
+``` markdown
+git clone https://github.com/Gou-Ai/DTMSCDSA.git  
+cd DTMSCDSA
+```
+# Description
+code:the code segment of the model  
+data:the dataset segment
+# Code
+``` markdown
+DTMSCDSA.py:the framework of DTMSCDSA
+dataprocessing.py:read data  
+param.py:model parameters  
+init.py:the training module
+```
+# Data
+The data is from [GATECDA](https://github.com/yjslzx/GATECDA.git).
+# Requirements
+Higher versions should be also available.  
+```markdown
+python 3.7  
+torch==1.13.1+cu117  
+torch-geometric==2.3.1  
+torchaudio==0.13.1+cu117  
+torchdata==0.5.1  
+torchvision==0.14.1+cu117  
+numpy==1.21.6  
+pandas==1.3.5  
+scikit-learn==1.0.2  
+```
+# Installation
+```markdown
+pip install -r requirement.txt
+```
+# Quick Start
+```markdown
+run init.py to run DTMSCDSA
+```
